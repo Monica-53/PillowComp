@@ -114,6 +114,13 @@ namespace PillowComp.Models
                                                }
                                          );
 
+                context.SaveChanges();
+
+                if (context.Pillow.Any())
+                {
+                    return;  // DB has been seeded.
+                }
+
             }
                 
 
