@@ -20,8 +20,15 @@ namespace PillowComp.Controllers
         }
 
         // GET: Pillows
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
+            var pillows = from m in _context.Pillow
+                         select m;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                pillows = pillows.Where(s => s.Name.Contains(searchString));
+            }
             return View(await _context.Pillow.ToListAsync());
         }
 
