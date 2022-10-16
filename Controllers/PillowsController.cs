@@ -62,6 +62,12 @@ namespace PillowComp.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [HttpPost]
+        public string Index(string searchString, bool notUsed)
+        {
+            return "From [HttpPost]Index: filter on " + searchString;
+        }
+
         public async Task<IActionResult> Create([Bind("ID,Name,ManufactureDate,Colour,Size,Price")] Pillow pillow)
         {
             if (ModelState.IsValid)
