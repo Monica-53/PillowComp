@@ -29,7 +29,8 @@ namespace PillowComp.Controllers
             {
                 pillows = pillows.Where(s => s.Name.Contains(searchString));
             }
-            return View(await _context.Pillow.ToListAsync());
+            //return View(await _context.Pillow.ToListAsync());
+            return View(await pillows.ToListAsync());
         }
 
         // GET: Pillows/Details/5
@@ -61,7 +62,7 @@ namespace PillowComp.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,ManufactureDate,Colour,Size,Price")] Pillow pillow)
+        public async Task<IActionResult> Create([Bind("ID,Name,ManufactureDate,Colour,Size,Price")] Pillow pillow)
         {
             if (ModelState.IsValid)
             {
@@ -93,7 +94,7 @@ namespace PillowComp.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,ManufactureDate,Colour,Size,Price")] Pillow pillow)
+        public async Task<IActionResult> Edit(int id, [Bind("ID,Name,ManufactureDate,Colour,Size,Price")] Pillow pillow)
         {
             if (id != pillow.Id)
             {
