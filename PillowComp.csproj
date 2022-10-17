@@ -7,6 +7,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\images\BambooPillow.jpg" />
+    <None Include="wwwroot\images\BodyRelax.jpg" />
+    <None Include="wwwroot\images\Cushion.jpg" />
+    <None Include="wwwroot\images\Feather.jpg" />
+    <None Include="wwwroot\images\MemoryFoam.jpg" />
+    <None Include="wwwroot\images\NeckRelief.jpg" />
+    <None Include="wwwroot\images\PancakePillow.jpg" />
+    <None Include="wwwroot\images\RoundThrow.jpg" />
+    <None Include="wwwroot\images\RoundVelvet.jpg" />
+    <None Include="wwwroot\images\SuperSoft.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.27" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.27" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.27" />
