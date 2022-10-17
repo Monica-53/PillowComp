@@ -37,4 +37,11 @@ As I was going through I missed out something in the Tutorial which is to create
 According to tutorial this contains Genre which I do not have in my properties
 Any way I added a new class to models folder aPillowNameViewModel.cs
 I have no idea about this file with my project
+I tried creating a link for about us, Views/Home right clicked and added a newitem About.cshtml, but the link is not shown on the mainpage.
+I used private policy to include history of the company
+I want to insert pillow images but I don't remeber exactly how this is done
+I have been trying on this but each time I am failing.
+As muc as I can I finished, 
+I spent lot of time on this project.
+Hope it turns out successful
 
