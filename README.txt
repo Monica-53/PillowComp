@@ -52,6 +52,11 @@ I finished my project and I want to stop and prepare for my exam tomorrow.
 Now the time is 10:11PM and the day is 2022/10/16
 2022/10/17 Time:1:19AM created a folder for images in Views/Home and added images but yet I do not see anyimages on my webpage.
 committed chages.
+Since the extension time for submission has extended. I want to add new field.
+I added new field rating by making changes in respective files
+I aslo figured out adding link for AboutUs 
+Images are added in wwwroot/css/Images
+I hope I have finishsed the project.
 
 
 
