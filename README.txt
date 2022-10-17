@@ -28,7 +28,7 @@ opened Models/Pillow.csand required changes are made on Pillow.cs in the place M
 Edit,Details,Delete links are checked to match with the tutorials.
 Required changes are made in Edit.cshtml
 Movie file created by the system is compared with the tutorials
-After running a program and navigation to Pilloes URL and clicking on Edit link, the generated HTML for the <form> is shown and I compared it with the tutorial file
+After running a program and navigation to Pillows URL and clicking on Edit link, the generated HTML for the <form> is shown and I compared it with the tutorial file
 Required changes made under [HttpPost] [ValidateAntiForgeryToken]
 Views/Movies/Edit.cshtml did not work for me. I moved on to Part-7
 PillowsController.cs changes made and followed the remaing steps carefully not to make a mess
@@ -44,4 +44,12 @@ I have been trying on this but each time I am failing.
 As muc as I can I finished, 
 I spent lot of time on this project.
 Hope it turns out successful
+I tried inserting images but I could not
+I also tried adding Rating but I could not migrate it 
+I do not take any chances to lose what I have done
+I am not adding rating on the webpage.
+I finished my project and I want to stop and prepare for my exam tomorrow.
+Now the time is 10:11PM and the day is 2022/10/16
+
+
 
