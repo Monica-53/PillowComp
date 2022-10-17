@@ -28,6 +28,9 @@ a {
 
 /* Sticky footer styles
 -------------------------------------------------- */
+body {
+    background-color: darkseagreen;
+}
 html {
   font-size: 14px;
 }
@@ -55,6 +58,7 @@ button.accept-policy {
 
 /* Sticky footer styles
 -------------------------------------------------- */
+
 html {
   position: relative;
   min-height: 100%;
