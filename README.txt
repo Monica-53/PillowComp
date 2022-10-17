@@ -56,7 +56,10 @@ Since the extension time for submission has extended. I want to add new field.
 I added new field rating by making changes in respective files
 I aslo figured out adding link for AboutUs 
 Images are added in wwwroot/css/Images
+I have applied styles on Home Page,Privacy PAge, and About US page
 I hope I have finishsed the project.
+Now the time is 5:34PM and the day is Monday 17th, OCtober 2022.
+
 
 
 
