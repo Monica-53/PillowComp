@@ -68,7 +68,7 @@ namespace PillowComp.Controllers
             return "From [HttpPost]Index: filter on " + searchString;
         }
 
-        public async Task<IActionResult> Create([Bind("ID,Name,ManufactureDate,Colour,Size,Price")] Pillow pillow)
+        public async Task<IActionResult> Create([Bind("ID,Name,ManufactureDate,Colour,Size,Price,Rating")] Pillow pillow)
         {
             if (ModelState.IsValid)
             {
@@ -100,7 +100,7 @@ namespace PillowComp.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,Name,ManufactureDate,Colour,Size,Price")] Pillow pillow)
+        public async Task<IActionResult> Edit(int id, [Bind("ID,Name,ManufactureDate,Colour,Size,Price,Rating")] Pillow pillow)
         {
             if (id != pillow.Id)
             {

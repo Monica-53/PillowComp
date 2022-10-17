@@ -29,7 +29,8 @@ namespace PillowComp.Models
                         ManufactureDate = DateTime.Parse("1989-3-11"),
                         Colour = "Green",
                         Size = "Small",
-                        Price = 11.99M
+                        Price = 11.99M,
+                        Rating = 3
                     },
 
                        new Pillow
@@ -38,7 +39,8 @@ namespace PillowComp.Models
                            ManufactureDate = DateTime.Parse("1988-2-12"),
                            Colour = "Golden",
                            Size = "Small",
-                           Price = 8.99M
+                           Price = 8.99M,
+                           Rating = 3
                        },
 
                           new Pillow
@@ -47,7 +49,8 @@ namespace PillowComp.Models
                               ManufactureDate = DateTime.Parse("1987-2-12"),
                               Colour = "Royal Blue",
                               Size = "Big",
-                              Price = 12.99M
+                              Price = 12.99M,
+                              Rating = 3
                           },
 
                              new Pillow
@@ -56,7 +59,8 @@ namespace PillowComp.Models
                                  ManufactureDate = DateTime.Parse("1989-2-12"),
                                  Colour = "White",
                                  Size = "Small",
-                                 Price = 8.99M
+                                 Price = 8.99M,
+                                 Rating = 3
                              },
 
                                 new Pillow
@@ -65,7 +69,8 @@ namespace PillowComp.Models
                                     ManufactureDate = DateTime.Parse("1986-2-12"),
                                     Colour = "Blue",
                                     Size = "Small",
-                                    Price = 10.99M
+                                    Price = 10.99M,
+                                     Rating = 3
                                 },
 
                                    new Pillow
@@ -74,7 +79,8 @@ namespace PillowComp.Models
                                        ManufactureDate = DateTime.Parse("1989-2-12"),
                                        Colour = "Purple",
                                        Size = "Small",
-                                       Price = 8.99M
+                                       Price = 8.99M,
+                                       Rating = 4
                                    },
 
                                       new Pillow
@@ -83,7 +89,8 @@ namespace PillowComp.Models
                                           ManufactureDate = DateTime.Parse("1988-2-12"),
                                           Colour = "Yellow",
                                           Size = "Big",
-                                          Price = 15.99M
+                                          Price = 15.99M,
+                                          Rating = 4
                                       },
 
                                          new Pillow
@@ -92,7 +99,8 @@ namespace PillowComp.Models
                                              ManufactureDate = DateTime.Parse("1980-2-12"),
                                              Colour = "White",
                                              Size = "Big",
-                                             Price = 15.99M
+                                             Price = 15.99M,
+                                             Rating = 4
                                          },
 
                                             new Pillow
@@ -101,7 +109,8 @@ namespace PillowComp.Models
                                                 ManufactureDate = DateTime.Parse("1989-2-12"),
                                                 Colour = "Golden",
                                                 Size = "Small",
-                                                Price = 7.99M
+                                                Price = 7.99M,
+                                                Rating = 3
                                             },
 
                                                new Pillow
@@ -110,9 +119,10 @@ namespace PillowComp.Models
                                                    ManufactureDate = DateTime.Parse("1980-2-12"),
                                                    Colour = "Blue",
                                                    Size = "Small",
-                                                   Price = 15.99M
+                                                   Price = 15.99M,
+                                                   Rating = 3
                                                }
-                                         );
+                                         ); 
 
                 context.SaveChanges();
 

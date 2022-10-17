@@ -34,7 +34,10 @@
             <th>
                 @Html.DisplayNameFor(model => model.Price)
             </th>
-          
+            <th>
+                @Html.DisplayNameFor(model => model.Rating)
+            </th>
+
 
             <th></th>
         </tr>
@@ -57,8 +60,11 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Price)
             </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rating)
+            </td>
 
-          
+
 
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
@@ -66,11 +72,7 @@
                 <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
             </td>
 
-            <td>
-                <a href="/Movies/Edit/4"> Edit </a> |
-                <a href="/Movies/Details/4"> Details </a> |
-                <a href="/Movies/Delete/4"> Delete </a>
-            </td>
+            
         </tr>
 }
     </tbody>
